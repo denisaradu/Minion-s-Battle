@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Minions Battle</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=78bbc4c444e23379d466855ef78b94fd">
+    <link rel="stylesheet" href="assets/css/styles.css?h=f05c096342c3374e79bd57079fcb05f6">
+</head>
+
+<body style="background: rgb(255,255,255);background-blend-mode: overlay;">
+    <header style="position: fixed;width: 100%;top: 0;z-index: 9999;">
+        <div style="position: absolute;background: rgba(255,255,255,0.88);width: 100%;height: 68px;"></div>
+        <nav class="navbar navbar-light navbar-expand-md" style="background: rgba(0,0,0,0.05);border-bottom-style: solid;border-bottom-color: rgba(33,37,41,0.07);position: absolute;width: 100%;">
+            <div class="container-fluid"><a class="navbar-brand" href="#" style="font-weight: bold;font-size: 26px;">Minions Battle</a>
+                <div><button class="btn btn-primary" type="button" data-bs-target="#modal-history" data-bs-toggle="modal" style="background: #ca0a0a;border: 2px solid rgb(0,0,0);border-radius: 13px;margin-left: 12px;font-weight: bold;" onclick="location.reload()">Battle Start</button><button class="btn btn-primary" type="button" data-bs-target="#modal-history" data-bs-toggle="modal" style="background: rgb(0,148,255);border: 2px solid rgb(0,0,0);border-radius: 13px;margin-left: 12px;font-weight: bold;">History</button></div>
+            </div>
+        </nav>
+    </header>
+    <div class="d-md-flex justify-content-md-center align-items-md-center"><span style="font-size: 38px;margin-top: 109px;color: #1d1262;/*background: var(--bs-white);*/font-weight: bold;border-bottom-style: none;">Tim's Story<br></span></div>
+    <div class="d-md-flex justify-content-md-center align-items-md-center"><span style="font-size: 22px;padding: 0 41px;"><span style="color: rgb(0, 0, 0);">Once upon a time there was a great minion, called Tim, with some strengths and weaknesses, as all minions have. He stumbled upon an Evil Minion and they decided to fight with each other!</span><br></span></div>
+    <div class="d-md-flex justify-content-md-center align-items-md-center" style="height: 276px;margin-top: 70px;">
+        <div class="d-md-flex justify-content-md-start align-items-md-center" style="color: var(--bs-pink);width: 100%;height: 100%;">
+            <div class="d-md-flex justify-content-md-center align-items-md-center" style="height: 100%;min-width: 60%;">
+                <picture class="d-md-flex justify-content-md-center align-items-md-center"><img src="assets/img/Character%201%20.png?h=068d3984e197428f258132c107cf44ce" style="width: 90%;height: 100%;"></picture>
+            </div>
+            <div class="d-md-flex flex-column justify-content-md-start align-items-md-center d_stat_container">
+                <div class="d-md-flex justify-content-md-center align-items-md-center d_stat" style="/*color: var(--bs-red);*/"><span class="d_stat_name">Health</span><span><span>🩸</span>&nbsp;<span id="d_stat_health_t" class="d_stat_value">71</span></span></div>
+                <div class="d-md-flex justify-content-md-center align-items-md-center d_stat" style="/*color: var(--bs-red);*/"><span class="d_stat_name">Strength</span><span><span>🗡</span>&nbsp;<span id="d_stat_strength_t" class="d_stat_value">71</span></span></div>
+                <div class="d-md-flex justify-content-md-center align-items-md-center d_stat" style="/*color: var(--bs-red);*/"><span class="d_stat_name">Defense</span><span><span>🛡️</span>&nbsp;<span id="d_stat_defense_t" class="d_stat_value">55</span></span></div>
+                <div class="d-md-flex justify-content-md-center align-items-md-center d_stat" style="/*color: var(--bs-red);*/"><span class="d_stat_name">Speed</span><span><span>⚡</span>&nbsp;<span id="d_stat_speed_t" class="d_stat_value">42</span></span></div>
+                <div class="d-md-flex justify-content-md-center align-items-md-center d_stat" style="/*color: var(--bs-red);*/"><span class="d_stat_name">Luck</span><span><span>🍀</span>&nbsp;<span id="d_stat_luck_t" class="d_stat_value">25</span></span></div>
+            </div>
+        </div>
+        <div class="d-md-flex justify-content-md-start align-items-md-center" style="color: var(--bs-pink);width: 100%;height: 100%;">
+            <div class="d-md-flex justify-content-md-center align-items-md-center" style="height: 100%;min-width: 60%;">
+                <picture class="d-md-flex justify-content-md-center align-items-md-center"><img src="assets/img/Character%202%20.png?h=9942981d6b93336a7924e48e94c53ffb" style="width: 90%;height: 100%;"></picture>
+            </div>
+            <div class="d-md-flex flex-column justify-content-md-start align-items-md-center d_stat_container">
+                <div class="d-md-flex justify-content-md-center align-items-md-center d_stat" style="/*color: var(--bs-red);*/"><span class="d_stat_name">Health</span><span><span>🩸</span>&nbsp;<span id="d_stat_health_t-1" class="d_stat_value">83</span></span></div>
+                <div class="d-md-flex justify-content-md-center align-items-md-center d_stat" style="/*color: var(--bs-red);*/"><span class="d_stat_name">Strength</span><span><span>🗡</span>&nbsp;<span id="d_stat_strength_t-1" class="d_stat_value">84</span></span></div>
+                <div class="d-md-flex justify-content-md-center align-items-md-center d_stat" style="/*color: var(--bs-red);*/"><span class="d_stat_name">Defense</span><span><span>🛡️</span>&nbsp;<span id="d_stat_defense_t-1" class="d_stat_value">56</span></span></div>
+                <div class="d-md-flex justify-content-md-center align-items-md-center d_stat" style="/*color: var(--bs-red);*/"><span class="d_stat_name">Speed</span><span><span>⚡</span>&nbsp;<span id="d_stat_speed_t-1" class="d_stat_value">46</span></span></div>
+                <div class="d-md-flex justify-content-md-center align-items-md-center d_stat" style="/*color: var(--bs-red);*/"><span class="d_stat_name">Luck</span><span><span>🍀</span>&nbsp;<span id="d_stat_luck_t-1" class="d_stat_value">28</span></span></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-md-flex justify-content-md-center align-items-md-center" style="padding: 30px;"><button class="btn btn-primary d_controlButton" type="button" onclick="location.reload()">Battle Start</button>
+        <div style="width: 83px;"></div><button class="btn btn-primary d_controlButton" type="button" data-bs-target="#modal-history" data-bs-toggle="modal" style="background: rgb(0,148,255);">History</button>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-history" style="/*z-index: 1000;*/">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="z-index: 1000;">
+                    <h4 class="modal-title">Battles History</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <div><a class="btn btn-light" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-33563" href="#collapse-33563" role="button" style="font-weight: bold;">01:59:34 pm</a>
+    <div id="collapse-33563" class="collapse">
+        <p style="border-radius: 11px;padding: 12px;border-top-left-radius: 0;border: 2px solid rgb(70,122,174);border-top-style: none;border-left-style: none;"><b>ROUND 1</b><br><br>Evil attacks first!!<br>Chance is 3<br>Tim usses the Umbrella Shield!!<br>The damage is 18.5<br>Tim's Health is now 80.5<br><br><b>ROUND 2</b><br><br>Tim attacks!!<br>Chance is 3<br>The Damage is 28<br>The Evil's Health is now 57<br><br><b>ROUND 3</b><br><br>Evil attacks!!<br>Chance is 1<br>The damage is 37<br>Tim's Health is now 43.5<br><br><b>ROUND 4</b><br><br>Tim attacks!!<br>Chance is 7<br>Tim uses the Banana Strike!!<br>The Damage is 28<br>The Evil's Health is now 29<br><br><b>ROUND 5</b><br><br>Tim attacks!!<br>Chance is 8<br>The Damage is 28<br>The Evil's Health is now 1<br><br><b>ROUND 6</b><br><br>Evil attacks!!<br>Chance is 2<br>The damage is 37<br>Tim's Health is now 6.5<br><br><b>ROUND 7</b><br><br>Tim attacks!!<br>Chance is 3<br>The Damage is 28<br>The Evil's Health is now -27<br><br><div style='font-size:40px;color:teal'><b>TIM WON THE BATTLE!!!</b></div></p>
+    </div>
+</div><section></section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 6px;background: var(--bs-red);"></div>
+    <div style="height: 70px;"></div>
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=5488c86a1260428f0c13c0f8fb06bf6a"></script>
+</body>
+
+</html>

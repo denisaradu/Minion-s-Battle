@@ -1,0 +1,46 @@
+.d_stat {
+  width: 100px;
+  height: 30px;
+  border-radius: 9px;
+  background: #f5ff81;
+  margin-top: 20px;
+  color: var(--bs-gray-900);
+  position: relative;
+  border-style: solid;
+}
+
+.d_stat_value {
+  font-weight: bold;
+}
+
+.d_stat_name {
+  position: absolute;
+  left: -6px;
+  top: -11px;
+  text-shadow: 1px 1px 3px rgb(0,0,0), 0px 0px 10px rgb(0,0,0);
+  color: rgb(255,255,255);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.d_controlButton {
+  border: 5px solid #000000 ;
+  border-radius: 19px;
+  background: #ca0a0a;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.d_stat_container {
+  background: linear-gradient(#ff5c01, rgba(255,255,255,0)), var(--bs-blue);
+  height: 100%;
+  width: 100%;
+  color: var(--bs-blue);
+  margin-right: 15px;
+  border-top-left-radius: 31px;
+  border-bottom-right-radius: 36px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  box-shadow: inset 0px 0px 20px, 0px 0px 14px 7px rgba(0,0,0,0.11);
+}
+
